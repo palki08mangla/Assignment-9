@@ -2,7 +2,6 @@
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import List from "./List";
 import "./App.css";
-import cheem from './cheem.png';
 const App = () => {
 const [item,setitem]=useState("");
 const [itemArray,setItemArray]=useState([]);
@@ -76,7 +75,7 @@ setItemArray(newt);
     return (
      
 <div className="container-fluid">
-<h1 className="text-center"><img src={cheem} alt=".."> Made By Pamlki Mangla 😍</h1>
+<h1 className="text-center">😍 Made By Pamlki Mangla 😍</h1>
 <div class="row">
     <div class="col-md-12 col-12 p-3 main">
        <div class="jii container text-center">
